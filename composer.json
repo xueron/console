@@ -1,0 +1,27 @@
+{
+  "name": "xueron/console",
+  "description": "Console Application Seed",
+  "keywords": ["symfony", "console", "laravel", "php"],
+  "license": "proprietary",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Xueron Nee",
+      "email": "xueron@xueron.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "php-di/php-di": "^5.4",
+    "symfony/console": "^3.3"
+  },
+  "autoload": { 
+    "psr-4": { 
+        "App\\": "app/" 
+    } 
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
